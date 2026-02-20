@@ -1,0 +1,23 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Replace footer attribution from 'Caffeine.ai' to 'by Nav'",
+  "requirements": [
+    {
+      "id": "REQ-48",
+      "summary": "Replace the 'using Caffeine.ai' attribution text in the Footer component with 'by Nav'",
+      "acceptanceCriteria": [
+        "The Footer component displays 'by Nav' instead of 'using Caffeine.ai'",
+        "The text styling and positioning remain consistent with the existing design",
+        "The attribution text maintains the same gold color and fade-in animation as before"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update the attribution text from 'using Caffeine.ai' to 'by Nav' while maintaining all existing styling including gold color, fade-in animation, and layout positioning"
+        }
+      ]
+    }
+  ]
+}

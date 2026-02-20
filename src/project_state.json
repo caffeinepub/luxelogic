@@ -1,0 +1,531 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 21,
+  "summary": "LuxeLogic brand website showcasing luxury fashion and vintage items with curated collections, featuring dark villainous aesthetic with deep matte black and metallic gold design",
+  "architectural_notes": [
+    "Product presentation should support personalized shopping experience",
+    "Brand messaging centered on aspirational lifestyle and curated collections",
+    "Include dupe collections (affordable luxury alternatives) alongside luxury items",
+    "Primary colors: Deep matte black (#0B0B0B) and metallic gold (#C6A75E)",
+    "Accent colors: Charcoal grey and muted champagne gold",
+    "Typography: Serif luxury font (Didot-style) for headings, minimal modern sans-serif for body text",
+    "Design mood: Dark, elegant, villainous, mysterious, aspirational, timeless, exclusive, powerful",
+    "Animation strategy: Slow fade-ins, smooth scroll transitions, subtle moving gold light streaks, soft glowing gold hover effects",
+    "Minimalist layout emphasizing negative space with elegant thin gold dividers",
+    "Dupe collection branded as 'Refined Alternatives' to maintain luxury perception"
+  ],
+  "known_issues": [],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-create-a-homepage-hero-section-that-introduces-luxelogic-brand-with-the-tagline-showcasing-the-mission-our-curated-collections-through-luxury-fashion-and-vintage-items-offer-each-individual-a-unique-personalized-experience-our-mission-is-to-showcase-a-timeless-and-aspirational-lifestyle-with-every-product",
+      "title": "Create a homepage hero section that introduces LuxeLogic brand with the tagline showcasing the mission: 'Our curated collections, through luxury fashion and vintage items, offer each individual a unique, personalized experience. Our mission is to showcase a timeless and aspirational lifestyle with every product.'",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-curated-collections-showcase-section-displaying-luxury-fashion-and-vintage-items-in-an-elegant-grid-or-gallery-layout",
+      "title": "Implement a curated collections showcase section displaying luxury fashion and vintage items in an elegant grid or gallery layout",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-the-website-with-a-sophisticated-high-end-aesthetic-that-reflects-luxury-fashion-and-timeless-elegance-use-a-refined-color-palette-with-neutrals-golds-or-deep-jewel-tones-typography-should-be-elegant-and-readable-layout-should-emphasize-whitespace-premium-imagery-and-clean-lines-that-convey-exclusivity-and-aspiration",
+      "title": "Design the website with a sophisticated, high-end aesthetic that reflects luxury fashion and timeless elegance. Use a refined color palette with neutrals, golds, or deep jewel tones. Typography should be elegant and readable. Layout should emphasize whitespace, premium imagery, and clean lines that convey exclusivity and aspiration.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-section-that-communicates-luxelogic-s-focus-on-personalized-experience-and-timeless-aspirational-lifestyle",
+      "title": "Create an about section that communicates LuxeLogic's focus on personalized experience and timeless, aspirational lifestyle",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-entire-website-design-to-a-dark-aesthetic-theme-while-maintaining-the-luxury-and-elegance-of-the-brand-update-color-palette-to-use-dark-backgrounds-with-light-text-adjust-gold-and-emerald-accent-colors-to-work-on-dark-backgrounds-and-ensure-all-components-header-hero-collectionsshowcase-about-footer-render-with-the-dark-theme",
+      "title": "Convert the entire website design to a dark aesthetic theme while maintaining the luxury and elegance of the brand. Update color palette to use dark backgrounds with light text, adjust gold and emerald accent colors to work on dark backgrounds, and ensure all components (Header, Hero, CollectionsShowcase, About, Footer) render with the dark theme.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-all-facebook-and-instagram-social-media-links-and-icons-from-the-header-component",
+      "title": "Remove all Facebook and Instagram social media links and icons from the Header component.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-all-facebook-and-instagram-social-media-links-and-icons-from-the-footer-component",
+      "title": "Remove all Facebook and Instagram social media links and icons from the Footer component.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-entire-color-scheme-throughout-the-website-to-use-black-as-the-primary-color-and-gold-as-the-accent-color-replace-all-existing-color-variables-in-frontend-src-index-css-to-use-black-backgrounds-gold-accents-and-ensure-text-contrast-is-maintained-for-readability",
+      "title": "Update the entire color scheme throughout the website to use black as the primary color and gold as the accent color. Replace all existing color variables in frontend/src/index.css to use black backgrounds, gold accents, and ensure text contrast is maintained for readability.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-luxury-aesthetic-throughout-the-website-by-increasing-whitespace-using-larger-elegant-typography-adding-subtle-gold-borders-and-dividers-implementing-sophisticated-hover-effects-with-gold-accents-and-using-premium-imagery-styling-with-gold-frames-or-overlays",
+      "title": "Enhance the luxury aesthetic throughout the website by increasing whitespace, using larger elegant typography, adding subtle gold borders and dividers, implementing sophisticated hover effects with gold accents, and using premium imagery styling with gold frames or overlays.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-extend-the-vertical-height-of-the-website-by-adding-more-content-sections-increase-the-height-of-existing-sections-hero-collectionsshowcase-about-with-additional-spacing-larger-content-blocks-and-more-detailed-information-to-create-a-longer-scrolling-experience",
+      "title": "Extend the vertical height of the website by adding more content sections. Increase the height of existing sections (Hero, CollectionsShowcase, About) with additional spacing, larger content blocks, and more detailed information to create a longer scrolling experience.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-new-dupe-collections-section-to-the-website-that-showcases-affordable-luxury-alternatives-this-section-should-display-products-that-are-inspired-by-high-end-luxury-items-but-offered-at-more-accessible-price-points",
+      "title": "Add a new 'Dupe Collections' section to the website that showcases affordable luxury alternatives. This section should display products that are inspired by high-end luxury items but offered at more accessible price points.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-collectionsshowcase-component-to-filter-and-display-only-luxury-and-vintage-products-excluding-dupe-items-so-that-the-main-showcase-remains-focused-on-premium-items",
+      "title": "Update the CollectionsShowcase component to filter and display only luxury and vintage products, excluding dupe items, so that the main showcase remains focused on premium items.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-color-scheme-in-frontend-src-index-css-to-use-deep-matte-black-0b0b0b-as-the-primary-background-color-and-metallic-gold-c6a75e-as-the-primary-accent-color-with-charcoal-grey-and-muted-champagne-gold-as-secondary-accent-colors",
+      "title": "Update the color scheme in frontend/src/index.css to use deep matte black (#0B0B0B) as the primary background color and metallic gold (#C6A75E) as the primary accent color, with charcoal grey and muted champagne gold as secondary accent colors",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-serif-luxury-font-family-didot-style-or-similar-like-playfair-display-for-all-heading-elements-and-minimal-modern-sans-serif-font-for-body-text-throughout-the-website",
+      "title": "Implement serif luxury font family (Didot-style or similar like Playfair Display) for all heading elements and minimal modern sans-serif font for body text throughout the website",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-hero-component-to-display-curated-luxury-timeless-power-as-the-main-heading-text-in-gold-serif-font-where-fashion-meets-legacy-as-the-subtext-and-style-the-explore-collection-button-with-gold-outline",
+      "title": "Update the Hero component to display 'Curated Luxury. Timeless Power.' as the main heading text in gold serif font, 'Where fashion meets legacy.' as the subtext, and style the 'Explore Collection' button with gold outline",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-subtle-animated-gold-light-streak-effect-to-the-hero-section-background-that-moves-slowly-across-the-screen",
+      "title": "Add a subtle animated gold light streak effect to the Hero section background that moves slowly across the screen",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-gold-gradient-styling-for-all-button-elements-with-soft-glowing-gold-outlines-that-appear-on-hover-state",
+      "title": "Implement gold gradient styling for all button elements with soft glowing gold outlines that appear on hover state",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-slow-fade-in-animations-to-all-major-content-sections-hero-collections-dupecollections-about-footer-that-trigger-when-sections-enter-the-viewport",
+      "title": "Add slow fade-in animations to all major content sections (Hero, Collections, DupeCollections, About, Footer) that trigger when sections enter the viewport",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-smooth-micro-interactions-throughout-the-website-including-subtle-scale-transforms-on-card-hover-smooth-color-transitions-and-elegant-state-changes",
+      "title": "Implement smooth micro-interactions throughout the website including subtle scale transforms on card hover, smooth color transitions, and elegant state changes",
+      "reqIds": [
+        "REQ-23"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-dupecollections-section-title-to-refined-alternatives-and-change-the-description-to-luxury-inspired-pieces-crafted-to-deliver-the-same-essence-of-elegance-and-prestige-at-a-more-accessible-price-point",
+      "title": "Update the DupeCollections section title to 'Refined Alternatives' and change the description to 'Luxury-inspired pieces crafted to deliver the same essence of elegance and prestige, at a more accessible price point.'",
+      "reqIds": [
+        "REQ-24"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-style-the-refined-alternatives-section-with-a-slightly-softer-gold-tone-compared-to-the-main-luxury-collection-and-update-product-card-text-to-use-luxury-preserving-language-like-inspired-reimagined-curated-alternative-or-luxe-inspired",
+      "title": "Style the Refined Alternatives section with a slightly softer gold tone compared to the main luxury collection, and update product card text to use luxury-preserving language like 'Inspired', 'Reimagined', 'Curated alternative', or 'Luxe-inspired'",
+      "reqIds": [
+        "REQ-25"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-product-grid-layout-in-collectionsshowcase-to-display-products-with-black-backgrounds-soft-spotlight-effects-on-product-images-prices-rendered-in-gold-font-and-add-to-cart-buttons-with-gold-outline-styling",
+      "title": "Update the product grid layout in CollectionsShowcase to display products with black backgrounds, soft spotlight effects on product images, prices rendered in gold font, and add-to-cart buttons with gold outline styling",
+      "reqIds": [
+        "REQ-26"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-thin-gold-stroke-divider-lines-between-major-sections-hero-collectionsshowcase-dupecollections-about-footer-to-create-elegant-visual-separation",
+      "title": "Add thin gold stroke divider lines between major sections (Hero, CollectionsShowcase, DupeCollections, About, Footer) to create elegant visual separation",
+      "reqIds": [
+        "REQ-27"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-elegant-loading-screen-component-that-displays-the-luxelogic-monogram-in-gold-on-a-black-background-and-render-it-during-initial-application-load",
+      "title": "Create an elegant loading screen component that displays the LuxeLogic monogram in gold on a black background, and render it during initial application load",
+      "reqIds": [
+        "REQ-28"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-luxelogic-luxury-logo-as-a-static-asset-in-the-header-component-replacing-any-existing-placeholder-logo",
+      "title": "Render the generated LuxeLogic luxury logo as a static asset in the Header component, replacing any existing placeholder logo",
+      "reqIds": [
+        "REQ-29"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-elegant-luxelogic-logo-as-a-static-asset-in-the-header-component-at-frontend-src-components-header-tsx-replacing-the-existing-text-based-logo-with-the-image-element-sourced-from-frontend-public-assets-generated",
+      "title": "Render the generated elegant LuxeLogic logo as a static asset in the Header component at frontend/src/components/Header.tsx, replacing the existing text-based logo with the image element sourced from frontend/public/assets/generated",
+      "reqIds": [
+        "REQ-30"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-use-the-luxury-closet-images-designer-bags-on-shelves-shoes-display-hanging-garments-as-featured-imagery-in-the-collectionsshowcase-section-to-showcase-the-premium-product-organization-and-display-aesthetic",
+      "title": "Use the luxury closet images (designer bags on shelves, shoes display, hanging garments) as featured imagery in the CollectionsShowcase section to showcase the premium product organization and display aesthetic.",
+      "reqIds": [
+        "REQ-32"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-feature-the-sophisticated-menswear-images-all-black-suits-luxury-watches-leather-gloves-in-a-dedicated-section-or-as-atmospheric-background-elements-that-communicate-timeless-elegance-and-power",
+      "title": "Feature the sophisticated menswear images (all-black suits, luxury watches, leather gloves) in a dedicated section or as atmospheric background elements that communicate timeless elegance and power.",
+      "reqIds": [
+        "REQ-33"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-incorporate-the-luxury-accessories-flat-lay-images-ysl-bag-with-jewelry-perfumes-with-pearls-watches-collection-coco-chanel-book-styling-as-elegant-content-blocks-or-section-backgrounds-that-showcase-product-curation-and-styling",
+      "title": "Incorporate the luxury accessories flat lay images (YSL bag with jewelry, perfumes with pearls, watches collection, Coco Chanel book styling) as elegant content blocks or section backgrounds that showcase product curation and styling.",
+      "reqIds": [
+        "REQ-34"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-use-the-lifestyle-imagery-champagne-glass-with-accessories-vintage-coco-chanel-book-with-pearls-as-atmospheric-elements-in-the-hero-section-or-as-elegant-divider-backgrounds-between-major-sections-to-reinforce-the-timeless-aspirational-lifestyle-messaging",
+      "title": "Use the lifestyle imagery (champagne glass with accessories, vintage Coco Chanel book with pearls) as atmospheric elements in the Hero section or as elegant divider backgrounds between major sections to reinforce the timeless aspirational lifestyle messaging.",
+      "reqIds": [
+        "REQ-35"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-consistent-elegant-styling-to-all-integrated-photography-including-subtle-fade-effects-gold-overlays-where-appropriate-and-sophisticated-hover-animations-that-align-with-the-existing-micro-interactions-throughout-the-website",
+      "title": "Apply consistent elegant styling to all integrated photography including subtle fade effects, gold overlays where appropriate, and sophisticated hover animations that align with the existing micro-interactions throughout the website.",
+      "reqIds": [
+        "REQ-36"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-increase-the-size-dimensions-of-all-luxury-fashion-photography-images-in-the-hero-component-to-ensure-they-are-prominently-visible-adjust-image-container-heights-widths-and-z-index-layering-to-make-background-imagery-more-apparent",
+      "title": "Increase the size dimensions of all luxury fashion photography images in the Hero component to ensure they are prominently visible. Adjust image container heights, widths, and z-index layering to make background imagery more apparent.",
+      "reqIds": [
+        "REQ-38"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-visibility-of-luxury-closet-images-designer-bags-shoes-display-hanging-garments-in-the-collectionsshowcase-component-by-increasing-image-sizes-reducing-overlay-opacity-and-ensuring-images-are-not-cropped-or-hidden",
+      "title": "Enhance the visibility of luxury closet images (designer bags, shoes display, hanging garments) in the CollectionsShowcase component by increasing image sizes, reducing overlay opacity, and ensuring images are not cropped or hidden.",
+      "reqIds": [
+        "REQ-39"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-increase-the-size-and-prominence-of-sophisticated-menswear-images-all-black-suits-luxury-watches-leather-gloves-in-the-menswearshowcase-component-ensure-grid-layout-maximizes-image-visibility-without-excessive-cropping",
+      "title": "Increase the size and prominence of sophisticated menswear images (all-black suits, luxury watches, leather gloves) in the MenswearShowcase component. Ensure grid layout maximizes image visibility without excessive cropping.",
+      "reqIds": [
+        "REQ-40"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-visibility-of-luxury-accessories-flat-lay-images-ysl-bag-with-jewelry-perfumes-with-pearls-watches-collection-in-the-about-component-by-increasing-image-container-sizes-and-reducing-any-overlay-effects-that-diminish-clarity",
+      "title": "Enhance visibility of luxury accessories flat lay images (YSL bag with jewelry, perfumes with pearls, watches collection) in the About component by increasing image container sizes and reducing any overlay effects that diminish clarity.",
+      "reqIds": [
+        "REQ-41"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-increase-the-visibility-of-lifestyle-imagery-champagne-glass-with-accessories-vintage-coco-chanel-book-with-pearls-used-in-sectiondivider-components-by-adjusting-opacity-overlay-darkness-and-ensuring-decorative-elements-do-not-obscure-the-images",
+      "title": "Increase the visibility of lifestyle imagery (champagne glass with accessories, vintage Coco Chanel book with pearls) used in SectionDivider components by adjusting opacity, overlay darkness, and ensuring decorative elements do not obscure the images.",
+      "reqIds": [
+        "REQ-42"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-adjust-overall-image-styling-across-all-components-to-reduce-dark-overlays-increase-brightness-contrast-where-needed-and-ensure-spotlight-effects-enhance-rather-than-diminish-image-visibility",
+      "title": "Adjust overall image styling across all components to reduce dark overlays, increase brightness/contrast where needed, and ensure spotlight effects enhance rather than diminish image visibility.",
+      "reqIds": [
+        "REQ-43"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-debug-why-images-are-not-rendering-in-the-frontend-by-verifying-that-image-file-paths-in-frontend-public-assets-generated-exist-and-match-the-src-attributes-used-in-components-hero-collectionsshowcase-menswearshowcase-about-sectiondivider",
+      "title": "Debug why images are not rendering in the frontend by verifying that image file paths in frontend/public/assets/generated exist and match the src attributes used in components (Hero, CollectionsShowcase, MenswearShowcase, About, SectionDivider)",
+      "reqIds": [
+        "REQ-44"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-fallback-styling-and-error-handling-to-all-image-elements-to-display-meaningful-content-if-images-fail-to-load-including-background-colors-alt-text-and-console-warnings",
+      "title": "Add fallback styling and error handling to all image elements to display meaningful content if images fail to load, including background colors, alt text, and console warnings",
+      "reqIds": [
+        "REQ-45"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-verify-and-fix-css-styling-that-may-be-hiding-images-including-checking-z-index-layering-opacity-values-overflow-hidden-properties-and-positioning-that-could-cause-images-to-render-off-screen-or-behind-other-elements",
+      "title": "Verify and fix CSS styling that may be hiding images, including checking z-index layering, opacity values, overflow hidden properties, and positioning that could cause images to render off-screen or behind other elements",
+      "reqIds": [
+        "REQ-46"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-explicit-width-and-height-dimensions-to-all-image-elements-in-hero-collectionsshowcase-menswearshowcase-about-and-sectiondivider-components-to-ensure-proper-rendering-and-prevent-layout-shifts",
+      "title": "Add explicit width and height dimensions to all image elements in Hero, CollectionsShowcase, MenswearShowcase, About, and SectionDivider components to ensure proper rendering and prevent layout shifts",
+      "reqIds": [
+        "REQ-47"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-using-caffeine-ai-attribution-text-in-the-footer-component-with-by-nav",
+      "title": "Replace the 'using Caffeine.ai' attribution text in the Footer component with 'by Nav'",
+      "reqIds": [
+        "REQ-48"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create website homepage with brand identity and product showcase",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Display curated collections of luxury fashion and vintage items",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Implement brand mission and lifestyle messaging",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Create backend data model to store product collections with fields for name, description, category (luxury fashion or vintage), price, and image reference",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Implement backend functions to add, retrieve, and list all products in the collection",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Convert website design to dark aesthetic theme",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Remove Facebook and Instagram social media links from website",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Update brand color scheme to black and gold throughout the website",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Add dupe collections section showcasing affordable luxury alternatives",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-16",
+      "summary": "Update the backend Product type in backend/main.mo to include a 'category' field that can distinguish between 'luxury', 'vintage', and 'dupe' product types. Add methods to filter products by category.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-17",
+      "summary": "Add sample dupe collection products to the backend with names, descriptions, prices (lower than luxury items), category set to 'dupe', and image references for affordable luxury alternatives.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-18",
+      "summary": "Update color scheme to deep matte black (#0B0B0B) and metallic gold (#C6A75E) with charcoal grey and muted champagne gold accents",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-19",
+      "summary": "Implement serif luxury font (Didot-style) for headings and minimal modern sans-serif for body text",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-20",
+      "summary": "Add gold gradient accents for buttons, soft glowing gold outlines on hover, and gold hover glow effects on collection cards",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-21",
+      "summary": "Implement slow fade-in animations, smooth scroll transitions, and smooth micro-interactions throughout the website",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-22",
+      "summary": "Update hero section with gold serif text 'Curated Luxury. Timeless Power.', subtext 'Where fashion meets legacy.', gold outlined 'Explore Collection' button, and subtle moving gold light streak animation",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-23",
+      "summary": "Rename 'Dupe Collections' section to 'Refined Alternatives' with updated description: 'Luxury-inspired pieces crafted to deliver the same essence of elegance and prestige, at a more accessible price point.'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-24",
+      "summary": "Style Refined Alternatives section with slightly softer gold tone and use luxury-preserving wording (Inspired, Reimagined, Curated alternative, Luxe-inspired)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-25",
+      "summary": "Update product grid layout with black background, soft spotlight effect on products, price in gold font, and add-to-cart button in gold outline",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-26",
+      "summary": "Add elegant loading screen with gold LuxeLogic monogram",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-27",
+      "summary": "Add elegant divider lines in thin gold strokes between sections",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-28",
+      "summary": "Integrate uploaded luxury fashion photography images throughout the website in an elegant manner to enhance the dark luxury aesthetic",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-29",
+      "summary": "Integrate the uploaded luxury fashion photography images (designer bags, YSL heels, watches, jewelry, Coco Chanel book with pearls, luxury perfumes, all-black menswear, accessories, and closet shots) throughout the website as high-quality visual assets that enhance the dark luxury aesthetic.",
+      "reqIds": [
+        "REQ-31"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-30",
+      "summary": "Integrate the code provided by the user in their most recent message into the appropriate location in the project. Analyze the code structure to determine whether it should replace existing files, add new components, or modify existing functionality. Preserve all existing features and styling conventions (dark luxury aesthetic with gold accents, fade animations, luxury imagery) while incorporating the new code.",
+      "reqIds": [
+        "REQ-37"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-31",
+      "summary": "Increase visibility and prominence of all integrated luxury fashion photography images throughout the website",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-32",
+      "summary": "Replace 'using Caffeine.ai' text in footer with 'by Nav'",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "LuxeLogic",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

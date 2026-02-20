@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component with LoadingScreen that receives isLoading prop, Header, Hero, CollectionsShowcase, MenswearShowcase, DupeCollections, About, Footer, and SectionDivider components featuring lifestyle imagery between major sections using actual generated asset paths.",
+  "frontend/src/components/Header.tsx": "Fixed navigation header displaying the LuxeLogic logo with gold hover effects on navigation links, error handling, and explicit logo dimensions.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with hero-bg image, animated gold light streaks, gradient overlay, and fade-in scroll animation with proper error handling and explicit dimensions.",
+  "frontend/src/components/CollectionsShowcase.tsx": "Product showcase for luxury and vintage items with featured product imagery (product-1 and product-2), black backgrounds, gold prices, gold-outlined buttons, hover animations, error handling, and explicit image dimensions.",
+  "frontend/src/components/About.tsx": "About section with brand mission, gold-bordered about-bg image, statistics grid, and luxury product showcase with error handling and explicit dimensions.",
+  "frontend/src/components/Footer.tsx": "Footer with three-column layout, updated logo, navigation links, gold borders, \"by Nav\" attribution, and fade-in scroll animation.",
+  "frontend/src/hooks/useProducts.ts": "Custom React Query hook that fetches all products from the backend using the getAllProducts method with proper loading and error state management.",
+  "frontend/src/index.css": "Global styles implementing deep matte black and metallic gold color palette with Playfair Display and Inter fonts, luxury utility classes with proper z-index layering, and sophisticated animations for fade-in effects and gold glows.",
+  "frontend/tailwind.config.js": "Tailwind configuration with dark luxury color palette (deep black and metallic gold), Playfair Display and Inter font families, extended spacing, ultra-wide letter spacing, and luxury shadow utilities including gold glow effects.",
+  "frontend/src/components/DupeCollections.tsx": "Refined Alternatives section with softer gold accents, dupe product imagery (dupe-product-1, dupe-product-2, dupe-product-3), product cards with soft gold borders, hover effects, error handling, and explicit dimensions.",
+  "frontend/src/components/LoadingScreen.tsx": "Full-screen loading component displaying animated 'LL' monogram in gold on deep black background with fade-in and fade-out animations.",
+  "frontend/src/hooks/useFadeInOnScroll.ts": "Custom React hook using IntersectionObserver to detect when elements enter viewport and trigger fade-in animations with configurable threshold and root margin.",
+  "frontend/src/components/MenswearShowcase.tsx": "Menswear showcase component with asymmetric layout featuring product images in larger containers with luxury styling, error handling, explicit dimensions, and fade-in scroll animations.",
+  "frontend/src/components/SectionDivider.tsx": "Elegant section divider component with background image, increased visibility, subtle dark overlay, thin gold borders, optional text overlay, error handling, and explicit dimensions."
+}
